@@ -1,15 +1,14 @@
-import "bootstrap/dist/css/bootstrap.min.css";
 import Header from "./components/header/Header";
 import Services from "./components/services/Services";
 import About from "./components/about/About";
-
-function App() {
+const Main = () => {
 	return (
-		<div className="app">
+		<div className="main">
 			<Header />
 			<Services />
 			<About />
 		</div>
 	);
-}
-export default App;
+};
+
+export default Main;
