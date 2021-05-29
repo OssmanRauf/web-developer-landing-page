@@ -29,7 +29,7 @@ const CarouselComponent = () => {
 				<Carousel.Caption>
 					<h3> Second slide label </h3>{" "}
 					<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>{" "}
-					<button className="btn"> Contact us </button>{" "}
+					<button className="btn btn-carousel"> Contact us </button>{" "}
 				</Carousel.Caption>{" "}
 			</Carousel.Item>{" "}
 			<Carousel.Item style={{ maxHeight: "600px" }} interval={3000}>

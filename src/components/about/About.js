@@ -1,9 +1,11 @@
 import Team from "./Team";
-import TeamDescription from "./TeamDescription";
+import Pricing from "./Pricing";
+
 const About = () => {
 	return (
 		<div className="about-component">
 			<Team />
+			<Pricing />
 		</div>
 	);
 };
