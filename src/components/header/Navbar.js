@@ -25,16 +25,7 @@ const NavegationBar = () => {
 						<Link to="pricing" smooth={true} duration={1000}>
 							<NavDropdown.Item> Pricing </NavDropdown.Item>{" "}
 						</Link>{" "}
-						<Link to="FAQ" smooth={true} duration={1000}>
-							<NavDropdown.Item> FAQ </NavDropdown.Item>{" "}
-						</Link>{" "}
 					</NavDropdown>{" "}
-					<Link to="testimonials" smooth={true} duration={1000}>
-						<Nav.Link> Testimonials </Nav.Link>{" "}
-					</Link>{" "}
-					<Link to="blog" smooth={true} duration={1000}>
-						<Nav.Link> Blog </Nav.Link>{" "}
-					</Link>{" "}
 					<Link to="contact" smooth={true} duration={1000}>
 						<Nav.Link> Contact </Nav.Link>{" "}
 					</Link>{" "}

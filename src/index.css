@@ -60,7 +60,7 @@ a.dropdown-item:hover {
 }
 
 .carousel-caption {
-    top: 50%;
+    top: 35%;
 }
 
 .btn {
@@ -76,7 +76,7 @@ a.dropdown-item:hover {
     align-items: center;
     background-color: #222;
     color: #939393;
-    padding-top: 30px;
+    padding-top: 100px;
 }
 
 #services h1 {
@@ -98,10 +98,11 @@ a.dropdown-item:hover {
 }
 
 .service {
-    margin: 1rem;
+    padding: 1.2rem;
 }
 
-.about-component {
+.about-component,
+.service-component {
     display: flex;
     justify-content: last baseline;
     flex-direction: column;
@@ -123,7 +124,8 @@ a.dropdown-item:hover {
     max-width: 700px;
 }
 
-.member-description {
+.member-description,
+.service-price {
     text-align: center;
 }
 
@@ -143,21 +145,25 @@ a.dropdown-item:hover {
     background-color: transparent;
 }
 
-.member-div {
+.member-div,
+.service-price {
+    position: sticky;
     padding-bottom: 1rem;
     padding-top: 1rem;
-    transition: 0.15s all ease-in-out;
-    transform: translate(0);
-    transition-duration: 0.8s;
+    transition: 0.2s all ease-in-out;
 }
 
 .member-div:hover {
-    top: -4px;
-    box-shadow: 0 10px 20px -5px rgb(0 0 0 /10%);
+    margin-top: -4px;
 }
 
-#team {
-    margin-top: 1rem;
+#team,
+.service-component {
+    padding-top: 5.1rem;
+}
+
+#pricing {
+    padding-top: 3rem;
 }
 
 
@@ -176,6 +182,65 @@ a.dropdown-item:hover {
     margin: auto;
 }
 
+h1 {
+    color: orange;
+    font-size: 0.5rem;
+}
+
+.service-price {
+    background-color: rgb(51, 51, 51);
+}
+
+.service-price h2 {
+    color: white;
+}
+
+.pricing-description {
+    text-align: center;
+    margin-bottom: 0;
+    max-width: 700px;
+}
+
+.service-component h1 {
+    font-size: 2rem;
+    margin: 1rem;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    margin: 1rem;
+    padding: 0.5rem;
+}
+
+ul li:before {
+    content: "\00a0 ✓ \00a0";
+    color: green;
+    font-weight: 700;
+}
+
+.butn {
+    height: 40px;
+    background-color: #6c757d !important;
+    border-color: #6c757d !important;
+}
+
+.butn:focus {
+    /* border-color: 2px solid #545b62 !important; */
+    box-shadow: 0 0 0 0.2rem rgb(130 138 145 / 50%) !important;
+}
+
+.butn:hover {
+    background-color: #5a6268 !important;
+    border-color: #545b62 !important;
+}
+
+#pricing {
+    padding-top: 5.1rem;
+}
+
 @media (max-width: 992px) {
     a.nav-link {
         margin: 0;
@@ -186,25 +251,44 @@ a.dropdown-item:hover {
     .services-description {
         margin: 0 3rem 0 3rem;
     }
-    .about-team {
+    .about-team,
+    .service-component {
         width: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-    .member-div {
-        width: 500px;
+    .member-div,
+    .service-price {
+        width: 90%;
+        max-width: 500px;
         margin: 20px;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
-    .about-component {
+    .about-componentt {
         margin: 0 3rem 0 3rem;
     }
     .team-description {
         margin: 0 3rem 0 3rem;
+    }
+    .pricing-description {
+        margin: 0 3rem 0 3rem;
+    }
+    #team,
+    .service-component {
+        padding-top: 3rem;
+    }
+    #services {
+        padding-top: 3rem;
+    }
+    .carousel-indicators {
+        display: none !important;
+    }
+    .btn-carousel {
+        margin-bottom: 1rem !important;
     }
 }
 
@@ -223,7 +307,8 @@ a.dropdown-item:hover {
         flex-direction: row;
         flex-wrap: wrap;
     }
-    .member-div {
+    .member-div,
+    .service-price {
         min-width: 300px;
         margin: 1rem 1.5rem;
         display: flex;
@@ -235,5 +320,15 @@ a.dropdown-item:hover {
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+    #pricing {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .service-component {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
     }
 }
