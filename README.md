@@ -2,7 +2,7 @@
 
 <h2 align="center">MoviesAPP to getinformations about movies</h2>
 
-### Demo Link: [MoviesApp](https://OssmanRauf.github.io/web-developer-landing-page/)
+### Demo Link: [Demo](https://OssmanRauf.github.io/web-developer-landing-page/)
 
 ---
 
