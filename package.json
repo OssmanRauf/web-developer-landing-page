@@ -1,7 +1,7 @@
 {
     "name": "developer-landing-page",
     "version": "0.1.0",
-    "homepage": "https://thebossmanlab.github.io/web-developer-landing-page/",
+    "homepage": "https://OssmanRauf.github.io/web-developer-landing-page/",
     "private": true,
     "dependencies": {
         "@testing-library/jest-dom": "^5.11.10",
