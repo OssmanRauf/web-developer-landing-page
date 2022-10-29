@@ -26,9 +26,9 @@ const NavegationBar = () => {
 							<NavDropdown.Item> Pricing </NavDropdown.Item>{" "}
 						</Link>{" "}
 					</NavDropdown>{" "}
-					<Link to="contact" smooth={true} duration={1000}>
+					{/* <Link to="contact" smooth={true} duration={1000}>
 						<Nav.Link> Contact </Nav.Link>{" "}
-					</Link>{" "}
+					</Link>{" "} */}
 				</Nav>{" "}
 			</Navbar.Collapse>{" "}
 		</Navbar>
