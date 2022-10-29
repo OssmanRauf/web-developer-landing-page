@@ -1,6 +1,6 @@
 # Developer agency landing page
 
-<h2 align="center">MoviesAPP to getinformations about movies</h2>
+<h2 align="center">Landing page for a developer agency</h2>
 
 ### Demo Link: [Demo](https://OssmanRauf.github.io/web-developer-landing-page/)
 
